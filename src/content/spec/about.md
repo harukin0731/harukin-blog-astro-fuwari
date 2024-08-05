@@ -8,7 +8,7 @@ This site was built by harukin using [Astro](https://astro.build) and [Fuwari](h
 
 # Why Astro?
 
-元々、今のブログはlivedoorで書いていたものの、扱いにくさや直感性の低さ、メディアのアクセス性の低さなど色々と不満点が多かったのです。当初はWordpressやghostなどを考えてみましたが、バックエンドのシステム保守が面倒だなと思いこの構成を作成しました。 [Xprocess](https//xprocess.haruk.in)ではHexoを使ってみたので、こっちではまた別のフレームワークを使ってみようと思い、テーマが可愛いのでこれにしました。
+元々、今のブログはlivedoorで書いていたものの、扱いにくさや直感性の低さ、メディアのアクセス性の低さなど色々と不満点が多かったのです。当初はWordpressやghostなどを考えてみましたが、バックエンドのシステム保守が面倒だなと思いこの構成を作成しました。 [Xprocess](https://xprocess.haruk.in)ではHexoを使ってみたので、こっちではまた別のフレームワークを使ってみようと思い、テーマが可愛いのでこれにしました。
 
 # About Me
 
