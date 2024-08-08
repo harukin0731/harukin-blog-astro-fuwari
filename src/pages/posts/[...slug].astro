@@ -97,6 +97,7 @@ const jsonLd = {
                 <ImageWrapper id="post-cover" src={entry.data.image} basePath={path.join("content/posts/", getDir(entry.id))} class="mb-8 rounded-xl banner-container onload-animation"/>
             }
 
+            {(entry.data.tags.includes("Archive"))&& <div style="color:red;font-weight: bold;">旧サイトからの移植記事です。正常に表示できない場合はライトモードもお試しください。コンテンツの賞味期限も切れている場合があります。</div>}
 
             <Markdown class="mb-6 markdown-content onload-animation">
                 <Content />
