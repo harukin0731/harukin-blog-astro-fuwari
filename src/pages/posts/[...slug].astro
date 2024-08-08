@@ -94,7 +94,7 @@ const jsonLd = {
             <!-- always show cover as long as it has one -->
 
             {entry.data.image &&
-                <ImageWrapper id="post-cover" src={entry.data.image} basePath={path.join("content/posts/", getDir(entry.id))} class="mb-8 rounded-xl banner-container onload-animation"/>
+                <ImageWrapper id="post-cover" src={entry.data.image} basePath={path.join("content/posts/", getDir(entry.id))} class="mb-8 rounded-[var(--radius-medium)]  banner-container onload-animation"/>
             }
 
             {(entry.data.tags.includes("Archive"))&& <div style="color:red;font-weight: bold;">旧サイトからの移植記事です。正常に表示できない場合はライトモードもお試しください。コンテンツの賞味期限も切れている場合があります。</div>}
@@ -103,7 +103,7 @@ const jsonLd = {
                 <Content />
             </Markdown>
 
-            {licenseConfig.enable && <License title={entry.data.title} slug={entry.slug} pubDate={entry.data.published} class="mb-6 rounded-xl license-container onload-animation"></License>}
+            {licenseConfig.enable && <License title={entry.data.title} slug={entry.slug} pubDate={entry.data.published} class="mb-6 rounded-[var(--radius-medium)]  license-container onload-animation"></License>}
 
         </div>
     </div>

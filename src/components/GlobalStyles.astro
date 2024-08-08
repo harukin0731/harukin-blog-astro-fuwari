@@ -48,11 +48,12 @@ rainbow-dark = linear-gradient(to right, oklch(0.70 0.10 0), oklch(0.70 0.10 30)
 
 :root
   --radius-large 0.5rem
+  --radius-medium 0.4rem
 
   --banner-height-home 65vh
   --banner-height 35vh
 
-  --content-delay 150ms
+  --content-delay 100ms
 
 color_set({
   --primary: oklch(0.70 0.14 var(--hue)) oklch(0.75 0.14 var(--hue))
@@ -270,7 +271,7 @@ color_set({
         @apply transition bg-black/40 hover:bg-black/50 active:bg-black/60 flex items-center justify-center mr-0 w-12 h-12 !important;
     }
     .pswp__button--zoom, .pswp__button--close {
-        @apply mt-4 rounded-xl active:scale-90 !important;
+        @apply mt-4 rounded-[var(--radius-medium)]  active:scale-90 !important;
     }
     .pswp__button--zoom {
         @apply mr-2.5 !important;
