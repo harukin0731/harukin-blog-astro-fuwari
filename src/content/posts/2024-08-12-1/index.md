@@ -3,7 +3,7 @@ title: ブログの引っ越し設定のメモ
 published: 2024-08-12
 tags: [Cloudflare, Blog, Astro,備忘録,nginx]
 category: development
-draft: true
+draft: false
 ---
 - 後の作業の備忘録のために書き起こしています。
 # 二つのブログ
