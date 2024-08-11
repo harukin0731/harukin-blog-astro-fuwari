@@ -11,8 +11,12 @@
             "id": "44644e63d385272c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/content/posts/test.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "src/content/posts/test.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "src/content/posts/test.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "src/content/posts/test.md"
+          }
         }
       }
     ],
@@ -125,8 +133,9 @@
   },
   "active": "44644e63d385272c",
   "lastOpenFiles": [
-    "/src/content/posts/test.md",
+    "src/content/posts/video.md",
     "src/content/posts/test.md",
+    "/src/content/posts/test.md",
     "tsconfig.json",
     "tailwind.config.cjs",
     "src/utils/url-utils.ts",
@@ -138,7 +147,6 @@
     "src/plugins/remark-excerpt.js",
     "src/plugins/remark-directive-rehype.js",
     "src/content/spec/about.md",
-    "src/content/posts/video.md",
     "src/content/posts/markdown.md",
     "src/content/posts/markdown-extended.md",
     "src/content/posts/guide/index.md",
