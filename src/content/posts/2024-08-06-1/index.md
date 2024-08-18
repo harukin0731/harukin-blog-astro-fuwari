@@ -2,7 +2,7 @@
 title: 豊富な機能は便利か邪魔か？ HHKB Studioレビュー＆設定紹介
 published: 2024-08-06
 tags: [Gadget, HHKB, Windows]
-image: HHKB.png
+image: ./HHKB.png
 category: Review
 draft: false
 ---
