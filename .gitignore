@@ -27,4 +27,4 @@ bun.lockb
 yarn.lock
 
 # Obsidian
-.obsidian/
+.obsidian
