@@ -26,7 +26,6 @@ const isPublic = src.startsWith('/')
 // https://github.com/withastro/astro/issues/3373
 let img
 if (isLocal) {
-  console.log('isLocal', src);
   const files = import.meta.glob<ImageMetadata>('../../**', {
     import: 'default',
   })
