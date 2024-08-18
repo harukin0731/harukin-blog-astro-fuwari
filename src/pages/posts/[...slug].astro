@@ -44,9 +44,32 @@ const jsonLd = {
   datePublished: formatDateToYYYYMMDD(entry.data.published),
   // TODO include cover image here
 }
+
+
+const isLocal = !(
+entry.data.image.startsWith('/') ||
+entry.data.image.startsWith('http') ||
+entry.data.image.startsWith('https') ||
+entry.data.image.startsWith('data:')
+)
+const isPublic = entry.data.image.startsWith('/')
+let img
+if (isLocal) {
+  console.log('isLocal', entry.data.image);
+  const files = import.meta.glob<ImageMetadata>('../../**', {
+    import: 'default',
+  });
+  let normalizedPath = path
+    .normalize(path.join('../../', path.join("content/posts/", getDir(entry.id)), entry.data.image))
+    .replace(/\\/g, '/')
+  img = await files[normalizedPath]()
+  if (!img) {
+    console.error(`No image found for path ${normalizedPath}`)
+  }
+}
 ---
 <MainGridLayout banner={entry.data.image} title={entry.data.title} description={entry.data.description}>
-    <meta property="og:image" content={entry.data.image ? entry.data.image.startsWith('/') ? url(entry.data.image) : entry.data.image : "https://blog.haruk.in/_astro/P_20240806_221951.Bw0A4ZUv_Z1LLAXO.webp"}></meta>
+    <meta property="og:image" content={entry.data.image ?isPublic ? url(entry.data.image) : entry.data.image : "https://blog.haruk.in/_astro/P_20240806_221951.Bw0A4ZUv_Z1LLAXO.webp"}></meta>
     <script is:inline slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd)}></script>
     <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative mb-4">
         <div id="post-container" class:list={["card-base z-10 px-6 md:px-9 pt-6 pb-4 relative w-full ",
