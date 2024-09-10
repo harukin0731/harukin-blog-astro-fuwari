@@ -3,7 +3,7 @@ title: "[これマジ電脳コイルじゃん] 小型HMDサングラスNrealAir�
 published: 2022-10-28
 tags: ["Archive","Gadget","SmartGrass","NrealAir","Review"]
 category: Diary
-image: https://livedoor.blogimg.jp/harukin0731/imgs/7/4/74467134-s.jpg
+image: https://livedoor.blogimg.jp/harukin0731/imgs/7/6/763dec90-s.jpg
 draft: false
 ---
 
