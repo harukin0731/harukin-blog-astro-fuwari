@@ -4,7 +4,7 @@ import '@fontsource/roboto/400.css'
 import '@fontsource/roboto/500.css'
 import '@fontsource/roboto/700.css'
 import ImageWrapper from '@components/misc/ImageWrapper.astro'
-
+import path from 'node:path'
 import { profileConfig, siteConfig } from '@/config'
 import ConfigCarrier from '@components/ConfigCarrier.astro'
 import {
@@ -15,15 +15,16 @@ import {
 } from '../constants/constants'
 import { defaultFavicons } from '../constants/icon'
 import type { Favicon } from '../types/config'
-import { url, pathsEqual } from '../utils/url-utils'
+import { url, pathsEqual,getDir } from '../utils/url-utils'
 
 interface Props {
   title?: string
   banner?: string
   description?: string
+  entry?: any
 }
 
-let { title, banner, description } = Astro.props
+let { title, banner, description, entry } = Astro.props
 
 // apply a class to the body element to decide the height of the banner, only used for initial page load
 // Swup can update the body for each page visit, but it's after the page transition, causing a delay for banner height change
@@ -36,10 +37,12 @@ const configHue = siteConfig.themeColor.hue
 if (!banner || typeof banner !== 'string' || banner.trim() === '') {
   banner = siteConfig.banner.src
 }
-
+else {
+ // banner = url(`${Astro.url.pathname+banner}`.replace("./",""));
+}
 // TODO don't use post cover as banner for now
-banner = siteConfig.banner.src
-
+//banner = siteConfig.banner.src
+console.log(path)
 const enableBanner = siteConfig.banner.enable
 
 let pageTitle: string
@@ -117,7 +120,8 @@ const siteLang = siteConfig.lang.replace('_', '-')
 		<GlobalStyles>
 		<div id="banner-wrapper" class="absolute w-full transition-all duration-700">
 			<ImageWrapper id="boxtest" alt="Banner image of the blog" class:list={["object-cover h-full", {"hidden": !siteConfig.banner.enable}]}
-					  src={siteConfig.banner.src} position={siteConfig.banner.position}
+					  src={banner} position={siteConfig.banner.position} 
+					   basePath={entry && banner !== siteConfig.banner.src? path.join("content/posts/", getDir(entry.id)): undefined} 
 			>
 			</ImageWrapper>
 		</div>

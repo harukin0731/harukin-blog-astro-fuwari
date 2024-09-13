@@ -14,7 +14,7 @@ import { url } from '../../utils/url-utils'
 
 const { id, src, alt, position = 'center', basePath = '/', isPostCover=false } = Astro.props
 const className = Astro.props.class
-
+console.log(src)
 const isLocal = !(
   src.startsWith('/') ||
   src.startsWith('http') ||
