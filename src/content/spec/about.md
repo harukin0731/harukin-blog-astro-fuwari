@@ -1,8 +1,8 @@
-# About This Site
+# Hello, World!
 
 This site was built by harukin using [Astro](https://astro.build) and [Fuwari](https://github.com/saicaca/fuwari).
 
-::github{repo="harukin0731/harukin0731.github.io"}
+::github{repo="harukin0731/harukin-blog-astro-fuwari"}
 
 このサイトでは基本的に技術関係の殴り書き、メモ、またハードウェアのレビュー記事など幅広く書いていきます。
 
@@ -22,3 +22,14 @@ This site was built by harukin using [Astro](https://astro.build) and [Fuwari](h
 | 特技           | ルービックキューブﾁｮｯﾄﾀﾞｹﾜｶﾙ                             |
 | 技能(自己申告) | React(ReactNative)ﾁｮｯﾄﾀﾞｹﾜｶﾙ/Linuxﾁｮｯﾄﾀﾞｹﾜｶﾙ/Gitﾁｮｯﾄﾀﾞｹﾜｶﾙ |
 
+# このサイトについて
+| 種目                 | 内容       |
+| -------------------- | ---------- |
+| ホスティングサービス | Cloudflare |
+| フレームワーク       | Astro      |
+| テーマ               | Fuwari     |
+
+# 他メインサイト
+- [Xprocess](https://xprocess.haruk.in)
+- [haruk.in](https://haruk.in)
+- [PCGF.io](https://pcgf.io)
