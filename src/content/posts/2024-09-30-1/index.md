@@ -3,7 +3,8 @@ title: FigmaとLottie-Labで作るお手軽アニメーションボックス
 published: 2024-09-30
 tags: [Apps, ReactNative, Lottie, Figma]
 category: development
-draft: true
+image: ./Untitled.gif
+draft: false
 ---
 # [とあるアプリ](https://haruk.in/?page=Apps&app_id=JRShikoku)と駅名板(ｽﾃｰｼｮﾝﾎﾞｰﾄﾞ)
 
