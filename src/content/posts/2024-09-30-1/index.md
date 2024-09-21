@@ -4,7 +4,7 @@ published: 2024-09-30
 tags: [Apps, ReactNative, Lottie, Figma]
 category: development
 image: ./Untitled.gif
-draft: true
+draft: false
 ---
 # [とあるアプリ](https://haruk.in/?page=Apps&app_id=JRShikoku)と駅名板(ｽﾃｰｼｮﾝﾎﾞｰﾄﾞ)
 
