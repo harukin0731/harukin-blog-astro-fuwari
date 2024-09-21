@@ -462,6 +462,36 @@ const className = Astro.props.class
     pointer-events: all
     opacity: 1
 
+  div.og-card-container
+    background-color: var(--license-block-bg)
+    border-radius: var(--radius-large)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+    padding-top: 1.1rem
+    overflow: auto
+
+  img.og-card-favicon
+    margin-top:0;
+    margin-bottom: 0;
+  
+  div.og-card-url-container
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 0.5rem
+
+    
+  div.og-card-container > a
+    padding: 0 !important
+    margin: 0 !important
+
+  div.og-card-image-container
+    margin-bottom: 1.5rem
+
+  img.og-card-image
+    border-radius: 0.4rem
+    margin-bottom: 0.5rem
+
   @keyframes pulsate
     0%
       opacity: 0.15
