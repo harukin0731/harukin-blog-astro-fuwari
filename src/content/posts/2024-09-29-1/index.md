@@ -1,6 +1,6 @@
 ---
 title: FigmaとLottie-Labで作るお手軽アニメーションボックス
-published: 2024-09-30
+published: 2024-09-29
 tags: [Apps, ReactNative, Lottie, Figma]
 category: development
 image: ./Untitled.gif
@@ -10,7 +10,7 @@ draft: false
 
 ![](./Screenshot_20240830-032809_YouTube.png)
 
-突然だが、これは2024年の9月30日に新規開業するJR四国の松山駅新駅舎にある松山駅の駅名板だ。
+突然だが、これは2024年の9月29日に新規開業するJR四国の松山駅新駅舎にある松山駅の駅名板だ。
 
 JR四国の民なら割と驚くのだが、この駅名板、**なんと黒い**。これまでの四国には無かったスタイルだ。しかもなんかカッコいい。なんだこれ、こんなの無かったろこれまで。
 
