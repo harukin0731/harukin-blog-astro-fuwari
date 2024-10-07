@@ -4,7 +4,7 @@ published: 2024-10-01
 tags: [Gadget, OneMix5, UMPC]
 image: ./ogp.png
 category: Review
-draft: true
+draft: false
 ---
 どうもharukinです。
 
