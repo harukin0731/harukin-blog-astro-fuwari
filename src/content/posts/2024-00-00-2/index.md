@@ -17,6 +17,8 @@ draft: false
 [このPCWatchの記事](https://pc.watch.impress.co.jp/docs/column/nishikawa/1554444.html)が参考になると思うので見てくださいな。
 簡単に言うと、ディスプレイ部分が変形する小さいノートパソコン兼タブレットです。
 
+https://pc.watch.impress.co.jp/docs/column/nishikawa/1554444.html
+
 その挙動とスタイルは、Surface Laptop Studio に近いものがあります。
 ![alt text](./image.png)
 
@@ -153,7 +155,7 @@ OneMix4の頃は底面に吸気口があったのですが、OneMix5では革巻
    ![](./P_20240724_181501.jpg)
    やはり！！小さいは正義！！10インチで十二分な性能を持っているので、持ち運びも楽々。OneMix4と比べても大きさはほぼ変わらないので、持ち運びには特に問題なし。いつでもどこでもサクッと展開して作業が可能なので滅茶苦茶便利に使ってます。13インチとかだとちょっと取り回しを考えちゃいます。
 2. 無難に増強された性能
-   
+   ![](./スクリーンショット2024-10-07143210.png)
    一応、OneMix4からのスペックアップはしている。特にRAMが32GBに増強されたのは大きい。OneMix4は16GBだったので、それに比べるとかなり快適になった。CPUはi7-1160G7からi7-1250Uに変わったので、PコアEコアで電池持ちは改善している。OneMix4でCPU性能はある程度足りていたもののRAMが足りなくなりがちだったので32GBになっているのも機種編の理由の一つにはなる。あと、OneMix4の電池が限界を迎えていたのと謎の性能抑制動作がありまともに使えないバグが発生していたのだが、それも再現はしなくなっていたので現状の体感は大きく改善されている。
 
 ここまではまぁ、スペックシートでもわかる良かったところだが、スペックシート以外の、この機種特有の良かった部分を紹介していこう。
@@ -170,7 +172,9 @@ OneMix4の頃は底面に吸気口があったのですが、OneMix5では革巻
 
 5. 謎に音がいい
    
-   Harman 監修なサウンド、正直馬鹿にしてましたが想像以上にいいんですこれ。勿論、デスクトップで使うようなしっかりした音響には全然叶わないんですがノートパソコンとしては普通にハイレベルに仕上がってると思います。OneMix4の時は本当に酷い音だったのですが圧倒的に「ちゃんとメディアプレーヤーとして通用する」。自分は音にそこまで詳しくないのでそういう指標は持ってないんですが、スピーカーが手前にあることもあってか、かなり音の広がりがいいんですよね。
+   [スピーカーの画像]
+
+   Harman 監修なサウンド、正直馬鹿にしてましたが想像以上にいいんですこれ。勿論、デスクトップで使うようなしっかりした音響には全然叶わないんですがノートパソコンとしては普通にハイレベルに仕上がってると思います。OneMix4の時は本当に酷い音だったのですが圧倒的に「ちゃんとメディアプレーヤーとして通用する」。自分は音にそこまで詳しくないのでそういう指標は持ってないんですが、スピーカーが手前にあることもあってか、かなり音の広がりがいいんですよね。お絵描きを配置しましたが、手元のスピーカーを隠しても上の方からも聞こえてくるんです。これ、もしかしてスピーカー4つぐらい積んでないです？上で書いた「排気口(？)」っていうのがそういうことなんですけど、ここら辺からも音が出ているような気がしてならないのです。気のせいかもしれないけど凄く特殊な音の幅が広がってるんですよね。上部が低音重視、下部がセリフ重視、みたいな感じなのかな...これ言語化できる人いませんか...? ~あ、当然ですが「小型ノートパソコンとしては」異様に良い音が出るわけで、最強マシンってわけじゃないですよ。~
 
    ↓Twitterでアップした動画、スマホで適当に録画しただけでも異常に音質が向上していることがわかります。
    <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">ブログ用動画/OneMix5とOneMix4の比較してはならない圧倒的音質差動画。<br>マジでこの音響の変化は凄まじく、一気にメディアマシンとして使うことが増えた。 <a href="https://t.co/QNwVwlvDV6">pic.twitter.com/QNwVwlvDV6</a></p>&mdash; Hairs UK Intelligent٩(✿ &#39; ᴗ &#39; )۶ (@mhkai00731) <a href="https://twitter.com/mhkai00731/status/1842847069654139051?ref_src=twsrc%5Etfw">October 6, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
@@ -232,3 +236,7 @@ OneMix4の頃は底面に吸気口があったのですが、OneMix5では革巻
 ## 6. まとめ
 色々な要素について語ってきましたが、そもそもこれを他人におすすめするかと言ったら **全くおススメしません。** コスパが見合わないのもそうですし、機構に不安点がありすぎます。いくら保証があったとしてもちょっと不安なポイントは多いですね。でも、それはそれとしても、 **この変形システムとこの音質は買うだけの価値があった** とは言えます。これだけに金を出してもいい！小さくてこれだけできてて完璧！！っていう変人の皆様なら、買ってもいいかもしれません。実際、似た機構を持つSurface Laptop Studioはこんな金額では買えないですし...それを考えれば無しではないのかな...でも、マジで電池持ちをなんとかしてしまえばどこでも運用出来て音楽も映画も開発も完璧にこなせる最強マシンなのは事実なので、**個人的にはマジで買ってよかったと思いますしこれからも第一線で活躍してもらおうと思います。**
 
+## 7. おまけ：各種ベンチマーク
+<blockquote class="twitter-tweet" data-media-max-width="1000"><p lang="ja" dir="ltr">OneMix5+TB4でFHDx2枚出力状態での各種ベンチ <a href="https://t.co/JgrkAwxoLR">pic.twitter.com/JgrkAwxoLR</a></p>&mdash; Hairs UK Intelligent٩(✿ &#39; ᴗ &#39; )۶ (@mhkai00731) <a href="https://twitter.com/mhkai00731/status/1844010562822574491?ref_src=twsrc%5Etfw">October 9, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<blockquote class="twitter-tweet" data-media-max-width="1000"><p lang="ja" dir="ltr">画面を外して電源刺して単体で実行。マルチは性能上がってシングルは性能下がったな。 <a href="https://t.co/yRuTEhC9Qr">pic.twitter.com/yRuTEhC9Qr</a></p>&mdash; Hairs UK Intelligent٩(✿ &#39; ᴗ &#39; )۶ (@mhkai00731) <a href="https://twitter.com/mhkai00731/status/1844047194858704909?ref_src=twsrc%5Etfw">October 9, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
