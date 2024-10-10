@@ -4,6 +4,7 @@ published: 2024-10-01
 tags: [Gadget, OneMix5, UMPC]
 image: ./ogp.png
 category: Review
+description: あらゆる方面に進化したOneMix5をレビュー。皮の意味や実際の使っての感想をガッツリ紹介しましょう。購入候補な人は一旦良し悪しを見極めて本当に買うべきかは判断した方がいいと思いますよ。
 draft: false
 ---
 どうもharukinです。
